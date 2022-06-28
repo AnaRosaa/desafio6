@@ -1,0 +1,62 @@
+// Crie um objeto que receba ao menos três propriedades sobre você.
+// Adicione uma nova propriedade sem alterar seu objeto inicial.
+// Remova uma propriedade desse objeto.
+//Mostre no console todas as propriedades desse objeto.
+
+
+let cadastro1 = {
+    nome:'Ana',
+    idade:16,
+    cidade:"Rio de Janeiro"
+}
+
+cadastro1.signo = "Aquário";
+delete cadastro1.idade;
+console.log(cadastro1)
+
+
+// Crie um array  chamado "cadastro" contendo ao menos 5 objetos. 
+//Cada objeto deve receber as seguintes propriedades: nome,  idade,  telefone, amigos. 
+//Na propriedade amigos, adicione ao menos 4 itens.
+// Mostre no console o nome de um amigo de cada lista.
+
+
+let cadastro2 = [{
+    nome:'Lilia',
+    idade:17,
+    telefone:215544768,
+    amigos: ['Luiza']
+},
+
+{
+    nome:'Clara',
+    idade:30,
+    telefone:112365589,
+    amigos:['Lilia']
+},
+ {
+    nome:'Rian',
+    idade: 13,
+    telefone:215564478,
+    amigos:['cleber']
+},
+{
+    nome:'Lucas',
+    idade: 16,
+    telefone:217769355,
+    amigos:['junior']
+},
+{
+    nome:'Maria',
+    idade:34,
+    telefone: 216767433,
+    amigos:['lucia']
+},
+]
+cadastro2[0].amigos = ['Lana','Igor','Sara','Fabi'];
+cadastro2[1].amigos = ['Ana','Will','Tomas','Fabio'];
+cadastro2[2].amigos = ['Larissa','Iago','Sandro','Carlos'];
+cadastro2[3].amigos = ['Clarice','Dressa','Victor','Rafael'];
+cadastro2[4].amigos = ['Lucy','Vitor','Sandra','Adriana'];
+
+console.log(cadastro2);
